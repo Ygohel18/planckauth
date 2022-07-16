@@ -523,4 +523,8 @@ app.post('/api/v1/login', (req, res) => {
     })
 })
 
-app.listen(port, () => { })
+if (process.env.NODE_ENV == "production") {
+    app.listen()
+} else {
+    app.listen(port, () => { })
+}
