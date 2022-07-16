@@ -1,7 +1,0 @@
-POST http://localhost:5000/api/v1/̥login/
-Content-Type: application/json
-
-{
-    "email": "yashgohel16@gmail.com",
-    "password": "12341234"̥̥
-}
